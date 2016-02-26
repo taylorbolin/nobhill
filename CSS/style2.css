@@ -1350,7 +1350,7 @@ li a.selected {
 
 .menu-link {
   display: block;
-  background: url(/wp-content/themes/agcsf/assets/images/button-menu-link.png) center center no-repeat;
+  background: url(https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-32.png) center center no-repeat;
   text-decoration: none;
   padding: 1.25rem;
   float: right;
@@ -1377,7 +1377,7 @@ a.socialBadge:hover .faux-heading {
   margin-top: 0;
 }
 
-.instagramWidget {
+/*.instagramWidget {
   display: block;
   margin-top: .625rem;
 }
@@ -1385,10 +1385,10 @@ a.socialBadge:hover .faux-heading {
 .instagramWidget span {
   display: block;
   float: left;
-}
+}*/
 
 @media only screen and (min-width:500px) {
-  .instagramWidget span {
+/*  .instagramWidget span {
     width: 50%;
   }
 }
@@ -1400,7 +1400,7 @@ a.socialBadge:hover .faux-heading {
 .instagramWidget .instagramImageWrapper1 {
   padding-left: 4px;
   margin-top: 0;
-}
+}*/
 
 .slider {
   position: relative;
@@ -1490,10 +1490,10 @@ a.socialBadge:hover .faux-heading {
   }
 }
 
-.header-container .wrapper {
+/*.header-container .wrapper {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
+}*/
 
 @media only screen and (min-width:680px) {
   .header-container .wrapper {
@@ -1581,6 +1581,7 @@ a.socialBadge:hover .faux-heading {
 
 .callout p {
   color: #555;
+  /*text-align: center;*/
 }
 
 .callout h1 {
@@ -2038,7 +2039,7 @@ li.footer-social {
   margin-top: 0;
 }
 
-.single-blog article {
+/*.single-blog article {
   margin-top: 1.25rem;
 }
 
@@ -2151,7 +2152,7 @@ li.footer-social {
 .blog-photo-wrapper p {
   margin: 0;
   padding: 0;
-}
+}*/
 
 .affiliates .column {
   float: left;
