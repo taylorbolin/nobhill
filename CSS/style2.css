@@ -1025,6 +1025,31 @@ textarea {
     float: left;
     padding-left: 1.875rem;
   }
+  .columns-lg-md-sm .column4 {
+    margin-top: 0;
+    width: 50%;
+    float: left;
+    padding-right: 1.875rem;
+    border-right: 1px solid #ccc;
+  }
+   .columns-lg-md-sm .column5 {
+    margin-top: 0;
+    width: 50%;
+    float: right;
+    padding-left: 1.875rem;
+  }
+  .columns-lg-md-sm .column6 {
+    margin-top: 0;
+    width: 66%;
+    float: left;
+    padding-left: 1.875rem;
+  }
+  .columns-lg-md-sm .column7 {
+    margin-top: 0;
+    width: 34%;
+    float: right;
+    padding-right: 1.875rem;
+  }
 
   .columns-lg-md-sm.bordered .column1 {
     border-right: 1px solid #ccc;
@@ -1159,7 +1184,7 @@ li a.selected {
 }
 
 .menu li li a:hover {
-  background-color: #EFEFEF;
+  /*background-color: #EFEFEF;*/
   color: #000;
 }
 
@@ -1213,9 +1238,9 @@ li a.selected {
 
 @media only screen and (min-width:680px) {
   .menu a.selected,.menu a:hover {
-    font-weight: 400;
+    /*font-weight: 400;*/
     background-color: transparent;
-    color: #f50;
+    /*color: #f50;*/
   }
 
   .menu li {
@@ -1251,9 +1276,9 @@ li a.selected {
   }
 
   .menu li li a:hover {
-    background-color: #555;
-    background-color: rgba(85,85,85,.9);
-    color: #fff;
+    /*background-color: #555;
+    background-color: rgba(85,85,85,.9);*/
+    color: #555;
   }
 
   .menu ul {
@@ -1474,10 +1499,10 @@ a.socialBadge:hover .faux-heading {
   }
 }
 
-.header-container .navigation-container {
+/*.header-container .navigation-container {
   padding-top: 20px;
   clear: both;
-}
+}*/
 
 @media only screen and (min-width:680px) {
   .header-container .navigation-container {
@@ -2038,6 +2063,9 @@ li.footer-social {
 .review-location,.review-source,.review-source img {
   margin-top: 0;
 }
+.reviewer {
+  text-align: right;
+}
 
 /*.single-blog article {
   margin-top: 1.25rem;
@@ -2179,6 +2207,9 @@ li.footer-social {
 .contact .column2 form p:last-of-type {
   margin-top: 0;
 }
+/*.contactinfo {
+  style="list-style-type:none;
+}*/
 
 @media only screen and (max-width:679px) {
   .contact .column2 form input[type=submit] {
