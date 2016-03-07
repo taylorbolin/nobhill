@@ -1564,7 +1564,7 @@ a.socialBadge:hover .faux-heading {
   max-height: 10%;
 }
 
-@media only screen and (min-width:680px) {
+/*@media only screen and (min-width:680px) {
   .header-container .wrapper {
     margin-top: 1.25rem;
     min-height: 130px;
@@ -1573,7 +1573,7 @@ a.socialBadge:hover .faux-heading {
   .home .header-container .wrapper {
     min-height: 112px;
   }
-}
+}*/
 
 .utility-container {
   display: none;
