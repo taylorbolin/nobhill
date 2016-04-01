@@ -2376,3 +2376,10 @@ li.footer-social {
   display: inline-block;
   height: 100%;
 }
+.footer {
+  text-align: center;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+}
