@@ -1540,7 +1540,7 @@ a.socialBadge:hover .faux-heading {
   .header-container .navigation-container {
     clear: right;
     padding-top: 0;
-    margin-top: 13px;
+    margin-top: 10px;
     display: block;
     float: right;
     width: 66.4063%;
@@ -2381,5 +2381,4 @@ li.footer-social {
     position: fixed;
     bottom: 10px;
     width: 100%;
-}
 }
