@@ -243,8 +243,8 @@ html {
 
 body {
   margin: 0 auto;
-  color: #7e8e91;
-  font-family: "GothamMediumRegular",sans-serif;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: 100;
   width: 100%;
@@ -741,13 +741,13 @@ textarea {
   font-weight: 400;
   font-style: normal;
 }*/
-@font-face {
+/*@font-face {
     font-family:"GothamMediumRegular";
     src: url("Gotham%20Medium%20Regular.ttf");
     font-weight: regular;
     font-style: normal;
 
-}
+}*/
 
 .slick-next,.slick-prev {
   position: absolute;
@@ -1049,7 +1049,7 @@ textarea {
     margin-top: 0;
     width: 66%;
     float: left;
-    padding-left: 1.875rem;
+    /*padding-left: 1.875rem;*/
   }
   .columns-lg-md-sm .column7 {
     margin-top: 0;
@@ -1536,16 +1536,36 @@ a.socialBadge:hover .faux-heading {
   clear: both;
 }
 
+.main_logo {
+  width: 15%;
+  float: left;
+  bottom: 0px;
+  position: relative;
+}
 @media only screen and (min-width:680px) {
   .header-container .navigation-container {
     clear: right;
     padding-top: 0;
-    margin-top: 10px;
+    margin-top: 90px;
     display: block;
     float: right;
     width: 66.4063%;
+    bottom: 0px;
+  }
+  .main_logo {
+    width: 150px;
+    float: left;
+    bottom: 0px;
   }
 }
+@media only screen and (max-width:400px){
+  .main_logo {
+    width: 50px;
+    float: left;
+    bottom: 0px;
+  }
+}
+
 
 .header-container .wrapper {
   /*padding-top: 1.25rem;*/
@@ -1723,7 +1743,7 @@ li.footer-social {
 }
 
 .footer-container footer {
-  color: #fff;
+  color: #5b5b5b;
   padding-top: 1.875rem;
   padding-bottom: 1.25rem;
   text-align: center;
@@ -2378,7 +2398,7 @@ li.footer-social {
 }
 .footer {
   text-align: center;
-    position: fixed;
     bottom: 10px;
     width: 100%;
+    margin: 0 auto;
 }

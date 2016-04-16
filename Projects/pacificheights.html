@@ -15,37 +15,238 @@
   <link href=
   'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/css/lg-transitions.css'
   media='all' rel='stylesheet'>
-  <link href='../CSS/style2.css' id='styles-css' media='all' rel='stylesheet'>
-</head>
-<body class="home">
-  <script src=
-  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+  <link href='../CSS/style.css' id='styles-css' media='all' rel='stylesheet'>
+  <link href="../images/favicon.ico" rel="icon" type="image/png">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel=
+  'stylesheet' type='text/css'>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js">
   </script>
-  <div id="lightgallery">
-    <a href=
-    "http://agcsf.com/wp-content/uploads/2015/04/BathSanchez03-680x680.jpg"><img src="http://www.kerry-beaches.com/images/contact-me-facebook-thumbnail.jpeg"></a>
-    <a href=
-    "http://static1.squarespace.com/static/5431dea8e4b0b7e0a4551e3d/5431e5b5e4b02d13dbb1ce6c/5443b962e4b03de3b67d5aeb/1413724516016/nobhillcontemporary007.jpg?format=2500w">
-    <img src=
-    "http://www.kerry-beaches.com/images/contact-me-facebook-thumbnail.jpeg"></a>
+  <script src="https://code.jquery.com/jquery-1.2.1.min.js">
+  </script>
+  <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.js">
+  </script>
+</head>
+<body class=
+"home page">
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+  </script>
+  <div class="header-container">
+    <header class="wrapper clearfix">
+      <img alt="Nob Hill Construction, Inc." class="main_logo" src=
+      "../images/Logo.png"> <a class="menu-link" href="#menu"></a>
+      <div class="navigation-container clearfix">
+        <nav class="menu" id="menu">
+          <ul id="menu-main-menu">
+            <li class="menu-item-has-children">
+              <a href="/projects/">Projects</a>
+              <ul>
+                <li>
+                  <a href="/projects/">Financial District</a>
+                </li>
+                <li>
+                  <a href="/projects/full-homes/">Nob Hill</a>
+                </li>
+                <li>
+                  <a href="/projects/kitchens/">Pacific Heights</a>
+                </li>
+                <li>
+                  <a href="/projects/bathrooms/">Russian Hill</a>
+                </li>
+                <li>
+                  <a href="/projects/commercial/">SOMA</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="/about-us/">About</a>
+              <ul>
+                <li>
+                  <a href="/about-us/">About Us</a>
+                </li>
+                <li>
+                  <a href="/team/">Team</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item-has-children menu-item-47">
+              <a href="/services/">Services</a>
+              <ul>
+                <li>
+                  <a href="/projects/">Construction</a>
+                </li>
+                <li>
+                  <a href="/projects/full-homes/">Kitchen</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="/blog">Contact</a>
+            </li>
+            <li>
+              <a href="/contact/">Testimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="secondary-nav" data-cat-relative-url=
+        "/projects/full-homes/">
+          <li>
+            <a class="selected" href=
+            "http://agcsf.com/project/banks-street-2/">Financial District</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/wisconsin/">Nob Hill</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/filbert-street/">Pacific
+            Heights</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/jackson-street/">Russian Hill</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/amber-drive/">SOMA</a>
+          </li>
+        </ul>
+        <ul class="tertiary-nav" data-cat-relative-url="/projects/bathrooms/">
+          <li>
+            <a href="http://agcsf.com/project/townsend/">Townsend</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/wisconsin-2/">Wisconsin</a>
+          </li>
+          <li>
+            <a class="selected" href=
+            "http://agcsf.com/project/sanchez-street/">Sanchez</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/filbert/">Filbert</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/jackson/">Jackson</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/san-fernando-way/">San
+            Fernando</a>
+          </li>
+          <li>
+            <a href=
+            "http://agcsf.com/project/washington-street/">Washington</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/banks-street/">Banks</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/hill-street-2/">Hill</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/turquoise-way/">Turquoise</a>
+          </li>
+          <li>
+            <a href="http://agcsf.com/project/9th-avenue/">9th</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+  <div class="main wrapper">
+    <div class="all_thumbs">
+      <div id="lightgallery">
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://static1.squarespace.com/static/5431dea8e4b0b7e0a4551e3d/5431e5b5e4b02d13dbb1ce6c/5443b962e4b03de3b67d5aeb/1413724516016/nobhillcontemporary007.jpg?format=2500w">
+          <img class="thumbnail_box" src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"><img class="thumbnail_box"
+          src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "img/nobhilleclectic/nobhilleclectic001.jpg"><img class=
+          "thumbnail_box" src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+        <div class="gallery_item">
+          <a class="item" href=
+          "img/nobhilleclectic/nobhilleclectic001.jpg"><img class=
+          "thumbnail_box" src=
+          "http://sachinchoolur.github.io/lightGallery/static/img/18.jpg"></a>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="footer-container">
     <footer class="wrapper clearfix">
-      <div style="margin-left: 2em">
+      <div>
         <h3>Quality Construction Guaranteed</h3>
-        <h4>CONTRACTOR'S LICENSE NO. 473744 • 2525 PHELPS STREET, SAN
-        FRANCISCO, CA 94124 • ©2016 NOB HILL CONSTRUCTION, INC., ALL RIGHTS
-        RESERVED</h4>
+        <h4>415-720-6446 | www.nobhillconstruction.net</h4>
       </div>
     </footer>
   </div>
+  <script src='../JS/script.js' type='text/javascript'>
+  </script> 
   <script type="text/javascript">
         $(document).ready(function(){
-            $('#lightgallery').lightGallery();
+            $('#lightgallery').lightGallery({
+              selector: '.item'
+              });
         });
   </script> 
   <script src=
   "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/js/lightgallery.min.js">
+  </script> 
+  <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/js/lg-autoplay.js">
+  </script> 
+  <script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/js/lg-fullscreen.js">
   </script>
 </body>
 </html>
