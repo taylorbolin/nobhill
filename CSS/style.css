@@ -246,7 +246,7 @@ body {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  font-weight: 100;
+  /*font-weight: 100;*/
   width: 100%;
   overflow-x: hidden;
   background-color: #fff;
@@ -289,7 +289,7 @@ hr {
 
 strong {
   font-weight: 700;
-  color: #555;
+  /*color: #555;*/
 }
 
 .clearfix:after,.clearfix:before,.columns-lg-md-sm:after,.columns-lg-md-sm:before,.columns-md-lg-sm:after,.columns-md-lg-sm:before,.footer-container:after,.footer-container:before,.header-container:after,.header-container:before,.horizontal-subnavigation:after,.horizontal-subnavigation:before,.loop:after,.loop:before,.main-container:after,.main-container:before,.menu ul:after,.menu ul:before,.project_detail_wrapper:after,.project_detail_wrapper:before,.slider:after,.slider:before,.standardWidth:after,.standardWidth:before,.thumbnails_wrapper:after,.thumbnails_wrapper:before,.wrapper:after,.wrapper:before {
@@ -387,15 +387,15 @@ html {
   filter: alpha(opacity=0);
 }
 
-.hideOnMobile {
+/*.hideOnMobile {
   display: none;
-}
+}*/
 
-@media only screen and (min-width:680px) {
+/*@media only screen and (min-width:680px) {
   .hideOnMobile {
     display: block;
   }
-}
+}*/
 
 @media only screen and (min-width:680px) {
   .mobileOnly {
@@ -986,12 +986,14 @@ textarea {
     width: 50%;
     float: left;
     padding-right: 1.875rem;
+    /*display: inline-block;*/
   }
 
   .columns-lg-md-sm .column3 {
     width: 50%;
     float: right;
     padding-left: 1.875rem;
+    /*display: inline-block;*/
   }
 
   .columns-lg-md-sm.bordered .column2 {
@@ -1393,7 +1395,7 @@ li a.selected {
 
 .horizontal-subnavigation a,.tertiary-nav a, .secondary-nav a {
   color: #000;
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 .secondary-nav a.selected {
@@ -1841,22 +1843,22 @@ li.footer-social {
   margin-top: .125rem;
 }
 
-.project_detail_wrapper .left .text {
+/*.project_detail_wrapper .left .text {
   background-color: #7e8e91;
   padding-left: 20px;
   overflow-y: auto;
-}
+}*/
 
-.project_detail_wrapper .left .text h1 {
+/*.project_detail_wrapper .left .text h1 {
   color: #fff;
   font-weight: 100;
   font-size: 32px;
   font-size: 2rem;
   margin: 0;
   padding: 25px 0 0;
-}
+}*/
 
-.project_detail_wrapper .left .text h2 {
+/*.project_detail_wrapper .left .text h2 {
   color: #c1c8c9;
   font-weight: 100;
   font-size: 21px;
@@ -1878,11 +1880,11 @@ li.footer-social {
 
 .project_detail_wrapper .left .text p a:hover {
   color: #fff;
-}
+}*/
 
-.project_detail_wrapper .right {
+/*.project_detail_wrapper .right {
   margin-top: 2px;
-}
+}*/
 
 .thumbnails_wrapper {
   background-color: #FFF;
@@ -1972,15 +1974,15 @@ li.footer-social {
     width: 33.5938%;
   }
 
-  .project_detail_wrapper .left .text {
+/*  .project_detail_wrapper .left .text {
     border-right: 2px solid #fff;
-  }
+  }*/
 
-  .project_detail_wrapper .right {
+ /* .project_detail_wrapper .right {
     float: right;
     width: 66.4063%;
     margin-top: 0;
-  }
+  }*/
 }
 
 @media only screen and (min-width:1064px) {
@@ -1994,40 +1996,40 @@ li.footer-social {
     padding-right: 0;
   }
 
-  .project_detail_wrapper .left .text {
+ /* .project_detail_wrapper .left .text {
     height: 422px;
     width: 100%;
     border-right: 2px solid #fff;
     padding-left: 30px;
-  }
+  }*/
 
-  .project_detail_wrapper .left .text h1 {
+  /*.project_detail_wrapper .left .text h1 {
     margin: 0;
     padding: 25px 0 0;
-  }
+  }*/
 
-  .project_detail_wrapper .left .text h2 {
+  /*.project_detail_wrapper .left .text h2 {
     margin: 0;
     padding: 23px 0 2px;
     font-weight: 400;
     border-bottom: 1px solid #fff;
-  }
+  }*/
 
-  .project_detail_wrapper .left .text p {
+  /*.project_detail_wrapper .left .text p {
     padding: 0 30px 0 0;
-  }
+  }*/
 
-  .project_detail_wrapper .left .text p strong {
+  /*.project_detail_wrapper .left .text p strong {
     font-weight: 700;
-  }
+  }*/
 
-  .project_detail_wrapper .right {
+  /*.project_detail_wrapper .right {
     float: right;
     width: 66.4063%;
     position: relative;
     margin-top: 0;
   }
-
+*/
   .project_photo_wrapper img {
     margin: 0 auto;
     width: 75%;
@@ -2397,8 +2399,12 @@ li.footer-social {
   height: 100%;
 }
 .footer {
+  /*height: 50px;*/ 
+  /*background: blue;*/
+  /*position: absolute*/;
+  bottom: 3;
+  width: 100%;
   text-align: center;
-    bottom: 10px;
-    width: 100%;
-    margin: 0 auto;
+  padding-bottom: 15px;
+  padding-top: 30px;
 }
