@@ -2399,10 +2399,7 @@ li.footer-social {
   height: 100%;
 }
 .footer {
-  /*height: 50px;*/ 
-  /*background: blue;*/
-  /*position: absolute*/;
-  bottom: 3;
+  bottom: 3px;
   width: 100%;
   text-align: center;
   padding-bottom: 15px;
